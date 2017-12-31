@@ -26,7 +26,7 @@ public class ChangeCalculator {
 		int q = Integer.parseInt(t);
 		n*=5; d*=10; q*=25;
 		// Calculate how much money the user has and save it in a double variable 
-        double m = 0.1*(n+d+q);
+        double m = 0.01*(n+d+q);
 		// Tell the user how much money they have
         JOptionPane.showMessageDialog(null, m);
 	}
